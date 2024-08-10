@@ -28,7 +28,7 @@ ollama = OllamaLLM(base_url='http://localhost:11434', model='llama2')
 
 docs = embed_anything.embed_webpage(url="PUT-LINK", embeder="Jina")
 
-pc =  Pinecone(api_key="1f880c47-f636-4200-a76a-431ee51e2d48")
+pc =  Pinecone(api_key)
 
 
 
